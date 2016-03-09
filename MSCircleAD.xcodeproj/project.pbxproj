@@ -40,6 +40,7 @@
 		A6B320CA1C9065EE005EEBB5 /* MSCircleADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSCircleADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B320CE1C9065EE005EEBB5 /* MSCircleADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCircleADTests.m; sourceTree = "<group>"; };
 		A6B320D01C9065EE005EEBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B320D91C906641005EEBB5 /* MSCommon.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCommon.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		A6B320B31C9065ED005EEBB5 /* MSCircleAD */ = {
 			isa = PBXGroup;
 			children = (
+				A6B320D91C906641005EEBB5 /* MSCommon.pch */,
 				A6B320B71C9065ED005EEBB5 /* AppDelegate.h */,
 				A6B320B81C9065ED005EEBB5 /* AppDelegate.m */,
 				A6B320BA1C9065ED005EEBB5 /* ViewController.h */,
@@ -341,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/mr.scorpion/Desktop/MSCircleAD/MSCircleAD/MSCommon.pch;
 				INFOPLIST_FILE = MSCircleAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrscorpion.MSCircleAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/mr.scorpion/Desktop/MSCircleAD/MSCircleAD/MSCommon.pch;
 				INFOPLIST_FILE = MSCircleAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrscorpion.MSCircleAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
